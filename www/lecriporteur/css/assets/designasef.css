@@ -1,0 +1,46 @@
+/*fond de pages*/
+body{
+margin-top: 0px;
+background-color:white;
+background-image:url(img/image_de_fond.png);
+background-repeat:repeat-x;
+
+
+}
+/*bloc contenant les autres*/
+
+#center {
+
+	width: 1024px;
+	height: 728px;
+	margin: auto;
+	margin-top: 0px;
+	background-image:url(img/page00.jpg);
+}
+#navigation{
+width:205px;
+height:60px;
+display: block;
+border: 1px solid #333333;
+position: absolute;
+padding: 5px;
+margin-top:750px;
+margin-left:100px;
+}
+
+#navigation a{
+
+	margin-top:10px;
+	color: #333333;
+	text-decoration: none;
+	font-size: 11px;
+	font-family: sans-serif;
+	}
+#navigation a:hover{
+	color: #ff3300;
+	}
+	
+h1 {
+	font-size: 11px;
+	font-family: sans-serif;
+}
